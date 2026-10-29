@@ -1013,6 +1013,7 @@ function buildPrompt(mode, opts) {
   return fillTemplate(mode, {
     TASK: task,
     CONTEXT: context,
+    DOWNLOAD_GUIDE_PATH: mode === 'staffer' ? path.resolve(path.dirname(SELF), '..', 'references', 'downloads.md') : '',
     WORKSPACE: mode === 'implement' ? dirtyWorkspacePrompt() : '',
   });
 }

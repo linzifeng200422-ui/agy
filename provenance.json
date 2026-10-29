@@ -10,7 +10,8 @@
     "preserve downloads, copywriting, review and authorization conventions",
     "templates preserve user files and authorized output paths",
     "timeout recovery metadata requires authorization assessment instead of unconditional new confirmation",
-    "public distribution uses portable documentation paths and documents optional external download tools"
+    "public distribution uses portable documentation paths and documents optional external download tools",
+    "staffer loads an installation-relative internal download guide; adds yt-dlp while keeping caller-facing download delegation simple"
   ],
   "upstream_hashes": {
     "companion/state-lock.mjs": "9ce9ddeb57f30277b195a23c6b69135fbc3e08d851f1231169fa79d51c165683",
