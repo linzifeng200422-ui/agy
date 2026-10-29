@@ -1,0 +1,6 @@
+interface:
+  display_name: "AGY（A）协作助手"
+  short_description: "A 即 AGY：角色分工、后台任务、抖音与 TK 下载、文案和复审"
+  default_prompt: "使用 $agy，选择适合的角色完成任务，跟进后台结果并核验交付。"
+policy:
+  allow_implicit_invocation: true

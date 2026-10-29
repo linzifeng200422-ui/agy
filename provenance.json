@@ -1,0 +1,27 @@
+{
+  "upstream": "https://github.com/keli-wen/agy-staff",
+  "version": "0.7.3",
+  "commit": "f00d14925c2bf63caa5d7cb3488f0e53f5716b13",
+  "license": "MIT",
+  "local_adaptations": [
+    "all five default models set to gemini-3.8-flash-high",
+    "disable slash command expansion for supplied materials",
+    "Chinese single-entry role and jobs routing",
+    "preserve downloads, copywriting, review and authorization conventions",
+    "templates preserve user files and authorized output paths",
+    "timeout recovery metadata requires authorization assessment instead of unconditional new confirmation",
+    "public distribution uses portable documentation paths and documents optional external download tools"
+  ],
+  "upstream_hashes": {
+    "companion/state-lock.mjs": "9ce9ddeb57f30277b195a23c6b69135fbc3e08d851f1231169fa79d51c165683",
+    "companion/stream-worker.mjs": "2d2b37c75b952aa67bcea49d084c637a3baf1167edb58abfa0bc8005e3800c48",
+    "companion/observation.mjs": "0f22de482d3fa8c10beee3aa64bf881d2be38819b0940405711818b8ac459397",
+    "companion/agy-companion.mjs": "f6896f792fda203ceca4f853d115472d34d8edff543aa407f8e0ad0d36e138f2",
+    "templates/implement.md": "7223b8ca5f408f834c6274656d0225d61aff042bffbe6ab0e1433ca93d457af8",
+    "templates/research.md": "f8a718db96fc8d985aaa383f97f6f89df5788c27cda0dd43a89cd6b8c72c7646",
+    "templates/staffer.md": "7a404621f2c1a6c78fc642d2da2d43af04665c6aa587b140dda1f8121ec3841f",
+    "templates/harness-compatibility.md": "1c89d9fa0242bf04d5b3668d7e7560043058726f4138ec60daa4f756ef910a15",
+    "templates/review.md": "9a248fb7baea45cc162563468ca551bf1f9cd90e9acb0942f4ba8f4096dca0ef",
+    "templates/ask.md": "d352907f4e8365ee64ebb7f65d773ab196aab88d6576fee690b2d1e55b0767de"
+  }
+}
